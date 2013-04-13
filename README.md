@@ -12,12 +12,3 @@ MIN REQUIREMENTS
 Optionals
 
 - CKEditor 4.1 to editable textareas from faqs at admin page
-
-Installation
-
-Install CakePHP
-Create database `restauracion`
-Create a new project from cake
-Copy all files
-Create admin and manager users for config data
-Configure ACL for special access

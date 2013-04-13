@@ -2,3 +2,19 @@
 create database [db_restauracion] DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 grant select,insert,update,delete ON [db_restauracion].* TO [user_access]@[hostname] IDENTIFIED BY 'password';
 
+## CAKEPHP ##
+Install CakePHP
+Create a new project from cake
+Copy all files
+Create admin and manager users for config data:
+	goto www.restauracion.local/admin/users/
+Configure ACL for special user access
+
+## jQuery ##
+Copy files js in webroot/js
+
+## Bootstrap ##
+Copy files js in webroot/js and css in webroot/css
+
+## CKEditor ##
+Copy dirctorie in webroot/js
