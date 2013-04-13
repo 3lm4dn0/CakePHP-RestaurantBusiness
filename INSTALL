@@ -1,0 +1,4 @@
+## DATABASE ##
+create database [db_restauracion] DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+grant select,insert,update,delete ON [db_restauracion].* TO [user_access]@[hostname] IDENTIFIED BY 'password';
+

@@ -1,0 +1,5 @@
+function textAreaAdjust(o) {
+	o.style.overflow = 'hidden';
+    o.style.height = '1px';
+	o.style.height = (o.scrollHeight)+'px';
+}
